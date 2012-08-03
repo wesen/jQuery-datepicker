@@ -24,7 +24,7 @@
  * @author Kelvin Luck (http://www.kelvinluck.com/)
  *
  * @example $('#calendar-me').renderCalendar({month:0, year:2007});
- * @desc Renders a calendar displaying January 2007 into the element with an id of calendar-me.
+ * desc Renders a calendar displaying January 2007 into the element with an id of calendar-me.
  *
  * @example
  * var testCallback = function($td, thisDate, month, year)
@@ -44,7 +44,7 @@
  * }
  * $('#calendar-me').renderCalendar({month:0, year:2007, renderCallback:testCallback});
  * 
- * @desc Renders a calendar displaying January 2007 into the element with an id of calendar-me. Every Thursday in the current month has a class of "thursday" applied to it, is clickable and shows an alert when clicked. Every Friday on the calendar has the number inside replaced with text.
+ * desc Renders a calendar displaying January 2007 into the element with an id of calendar-me. Every Thursday in the current month has a class of "thursday" applied to it, is clickable and shows an alert when clicked. Every Friday on the calendar has the number inside replaced with text.
  **/
 		renderCalendar  :   function(s)
 		{
@@ -201,9 +201,6 @@
  *
  * @example $('input.date-picker').datePicker();
  * @desc Creates a date picker button next to all matched input elements. When the button is clicked on the value of the selected date will be placed in the corresponding input (formatted according to Date.format).
- *
- * @example demo/index.html
- * @desc See the projects homepage for many more complex examples...
  **/
 		datePicker : function(s)
 		{			
