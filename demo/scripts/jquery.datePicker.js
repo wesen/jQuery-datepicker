@@ -644,7 +644,7 @@
 					$but.attr('title', s ? '' : $.dpText.TEXT_CHOOSE_DATE);
 				}
 				if ($e.is(':text')) {
-					$e.attr('disabled', s ? 'disabled' : '');
+					$e.attr('disabled', s ? 'disabled' : null);
 				}
 			},
 			setDisplayedMonth : function(m, y, rerender)
