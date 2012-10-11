@@ -172,7 +172,7 @@
  * dpDisplayed(event, $datePickerDiv)
  * Triggered when the date picker is created. $datePickerDiv is the div containing the date picker. Use this event to add custom content/ listeners to the popped up date picker.
  *
- * @param Object s (optional) Customize your date pickers.
+ * @param {Object} s (optional) Customize your date pickers.
  * @option Number month The month to render when the date picker is opened (NOTE that months are zero based). Default is today's month.
  * @option Number year The year to render when the date picker is opened. Default is today's year.
  * @option String|Date startDate The first date date can be selected.
