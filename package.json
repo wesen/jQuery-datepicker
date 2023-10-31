@@ -1,0 +1,20 @@
+{
+  "name": "jquery-datepicker",
+  "version": "1.0.0",
+  "description": "A jQuery datepicker project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldeneagle/jQuery-datepicker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldeneagle/jQuery-datepicker/issues"
+  },
+  "homepage": "https://github.com/goldeneagle/jQuery-datepicker#readme",
+  "dependencies": {}
+}
